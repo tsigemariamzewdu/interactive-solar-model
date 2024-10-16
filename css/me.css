@@ -1,0 +1,109 @@
+/* before building this first of all i have to think about the design and i could not find any idea for that so i am gonna get back to it in the morning */
+body{
+    background-color: black;
+}
+
+
+.title{
+    text-transform: capitalize;
+    color:goldenrod;
+    font-size: 200%;
+    position: absolute;
+    left:35%;
+    top: 5%;
+}
+.intro{
+    background-color: rgb(20, 13, 13,0.7);
+    box-shadow: white;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top:15%;
+    left: 30%;
+}
+.intro p{
+    position: absolute;
+    top:10%;
+    color: goldenrod;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+i{
+    background-color: goldenrod;
+    color:black;
+    width: 50px;
+    height:50px;
+    font-size: 42px;
+    text-align: center;
+    border-radius: 30%;
+    margin-left: 50px;
+    
+    
+}
+.icons{
+    position:absolute;
+    top:60%;
+    left:35%;
+    display: inline;
+   
+}
+i:hover{
+    background-color: black;
+    color: goldenrod;
+    transition: .4s ease-in-out;
+}
+.user-info{
+    width: 40%;
+    height:300px;
+    background-color: rgb(24, 6, 6,0.4);
+    position:absolute;
+    top:67%;
+    left: 30%;
+}
+label{
+    color: goldenrod;
+    font-size: 20px;
+}
+input{
+    position: relative;
+    left: 10px;
+    background-color: goldenrod;
+    width: 400px;
+    height: 30px;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.user-info p{
+    font-size: 25px;
+    color: goldenrod;
+    margin-left: 200px;
+   
+}
+.submit{
+    margin-left: 200px;
+    background-color:black;
+    color: goldenrod;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+.submit:hover{
+    color: black;
+    background-color: goldenrod;
+    transition: .4s ease-in-out;
+}
+.left-img img{
+    width: 400px;
+}
+.right-img {
+    position: absolute;
+    top:60%;
+    left: 70%;
+    
+}
+.right-img img{
+    width: 400px;
+}

@@ -1,0 +1,91 @@
+body{
+background-image: url('../images/back5.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+header .title p{
+    font-size: 60px;
+    font-family: "Pirata One", system-ui;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    z-index: 1000;
+    
+
+}
+header .title a{
+    color:white;
+    position:absolute;
+    right:30px;
+    font-size: 40px;
+
+}
+header .title span{
+    color: white;
+    position: absolute;
+    right:35px;
+    top:70px;
+}
+header .title{
+    
+  width: 100%; /* Adjust as needed */
+  height: 100px;
+  display: flex; /* Center content */
+  justify-content: center; /* Center content */
+  align-items: center; /* Center content */
+  position: absolute;
+    left:0;
+    top: 0;
+    
+}
+header .title span:hover{
+    color:goldenrod;
+}
+header .title:hover{
+    /* background-color:rgba(202, 175, 245, 0.7); */
+    
+    cursor: pointer;
+    
+}
+header .title p:hover{
+    color:goldenrod ;
+    transition: .4s ease-in-out;
+    font-weight: 900;
+    font-size: 70px;
+}
+button.explore{
+    position: absolute;
+    bottom:20%;
+    left:43%;
+    width: 200px;
+    height: 100px;
+    font-family:"Pirata One", system-ui ;
+    letter-spacing: 2px;
+    font-size: 30px;
+    background-color:goldenrod;
+    color: black;
+   
+    clip-path: polygon(
+    25% 0%,   /* Top middle */
+    75% 0%,   /* Top right */
+    100% 25%, /* Right middle */
+    100% 75%, /* Bottom right */
+    75% 100%, /* Bottom middle */
+    25% 100%, /* Bottom left */
+    0% 75%,   /* Left middle */
+    0% 25%    /* Top left */
+  );
+}
+button.explore a{
+    text-decoration: none;
+    font-family:"Pirata One", system-ui ;
+    letter-spacing: 2px;
+    font-size: 30px;
+    
+    color:black;
+}
+button.explore:hover{
+    background-color: black;
+}

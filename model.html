@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/model.css">
+</head>
+<header>
+    <div class="title">
+        <p id="welcome-text">Welcome home!</p>
+        <audio id="background-sound" src="welcome.mp3"></audio>
+    </div>
+</header>
+<body>
+    <div class="stars">
+        <img  class='move-star fast' src="images/star1.avif" alt="">
+        <img class='move-star' src="images/star1.avif" alt="">
+        <img  class='move-star fast' src="images/star1.avif" alt="">
+        <img class='move-star' src="images/star1.avif" alt="">
+        <img class='move-star fast' src="images/star1.avif" alt="">
+        <img class='move-star' src="images/star1.avif" alt="">
+        <img class='move-star fast' src="images/star1.avif" alt="">
+        <img class='move-star' src="images/star1.avif" alt="">
+        <img  class='move-star fast'src="images/star1.avif" alt="">
+        <img class='move-star' src="images/star1.avif" alt="">
+        <img class='move-star fast' src ="images/star1.avif" alt="">
+        <img class='move-star' src="images/star1.avif" alt="">
+        <img class='move-star fast'src="images/star1.avif" alt="">
+        <img class='move-star'src="images/star1.avif" alt="">
+        <img class='move-star fast'src="images/star1.avif" alt="">
+        <img class='move-star'src="images/star1.avif" alt="">
+        <img class='move-star fast'src="images/star1.avif" alt="">
+        <img class='move-star'src="images/star1.avif" alt="">
+        
+        
+
+    </div>
+   
+    <div class="planets">
+    <div class="sun">
+        <img src="images/sun.jpg" alt="">
+        
+    </div>
+    <div class="mercury">
+        <img src="images/mercury.jpg" alt="">
+        mercury
+    </div>
+    <div class="venus">
+        <img src="images/venus.jpg" alt="">
+    </div>
+    <div class="earth">
+        <img src="images/earth.jpg" alt="">
+    </div>
+    <div class="mars">
+        <img src="images/mars.webp" alt="">
+    </div>
+    <div class="jupiter">
+        <img src="images/jupiter.jpg" alt="">
+    </div>
+    <div class="saturn"><img src="images/satrurn.webp" alt="">
+    </div>
+    <div class="uranus"><img src="images/uranus.jpg" alt=""></div>
+    <div class="neptune"><img src="images/neptune.jpg" alt=""></div>
+</div>
+    <!-- <div class="button-clickable">
+        <button> The Sun</button>
+        <button>mercury</button>
+        <button>venus</button>
+        <button>earth</button>
+        <button>mars</button>
+        <button>jupiter</button>
+        <button>saturn</button>
+        <button>uranus</button>
+        <button>neptune</button>
+  
+    </div> -->
+    <div id="planet-info" class="planet-info" style="display: none;">
+        <h2 id="planet-name"></h2>
+        <p id="planet-description"></p>
+        <video id="planet-video" controls>
+            <source id="video-source" src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a id="read-more" href="#" target="_blank" style="display: none;">Read More</a>
+        <button id="close"> X </button>
+    </div>
+    
+    <script src="js/model.js"></script>
+</body>
+</html>
